@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Complete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="navigate-button" onclick="window.location.href='index.html'">Nederlands</button>
+        <div class="quiz-container">
+        <h2 class="end-text">Your performance:</h2>
+        <p style="font-weight: bold;">Rating: <span id="final-rating"></span></p>
+        <p style="font-weight: bold;">Your score: <span id="final-score"></span></p>
+        <p id="social-engineering-advice" class="end-text"></p>
+        <h2>Thank you for completing the quiz!</h2>
+        <button onclick="restartQuizE()" class="restart-button">Restart Quiz</button>
+        <button onclick="gotostartE()" class="restart-button">To Start</button>
+    </div>
+    <p id="Rang" style="visibility: hidden;">a</p>
+    <p id="social-engineering-advies" style="visibility: hidden; position: absolute; z-index: -1;">a</p>
+    <script src="script.js"></script>
+</body>
+</html>
